@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "c-expo-app",
+    "slug": "c-expo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/brand/et-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#182F40"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/brand/et-logo.png"
+    }
+  }
+}
